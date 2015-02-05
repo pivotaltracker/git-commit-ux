@@ -2,6 +2,10 @@
 
 Experimentation with improved user experience for presenting git commits and their relationship to project management software, release management, and deployment management.
 
+# Problem
+
+* Current user experience for presenting git commit data in most software (project management, CI, chat, etc) is rudimentary.  Most tools present a basic chronological stream of commits, sometimes associated with a story (Tracker).  However, in git workflows involving multiple branches, different branch types/roles, and rebasing of branches, much potentially valueable information is missing, and other information is misleading.
+
 # Goals
 
 * Re-imagine and experiment with improved user experience for integrating and presenting git commit data in user interfaces and APIs, with specific focus on git workflows involving multiple branches and frequent rebasing of feature branches.
