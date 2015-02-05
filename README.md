@@ -4,7 +4,7 @@ Experimentation with improved user experience for presenting git commits and the
 
 # Problem
 
-* Current user experience for presenting git commit data in most software (project management, CI, chat, etc) is rudimentary.  Most tools present a basic chronological stream of commits, sometimes associated with a story (Tracker).  However, in git workflows involving multiple branches, different branch types/roles, and rebasing of branches, much potentially valueable information is missing, and other information is misleading.
+* Current user experience for presenting git commit data in most software (project management, CI, chat, etc) is rudimentary.  Most tools present a basic chronological stream of commits, sometimes associated with a story (Tracker).  However, in git workflows involving multiple branches, different branch types/roles, and rebasing of branches, much potentially valueable information is missing, and other information is incorrect, outdated, or misleading.
 
 # Goals
 
