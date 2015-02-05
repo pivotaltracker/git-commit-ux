@@ -12,6 +12,7 @@ Experimentation with improved user experience for presenting git commits and the
 * Re-imagine and experiment with improved user experience for integrating and presenting git commit data in user interfaces and APIs, with specific focus on git workflows involving multiple branches and frequent rebasing of feature branches.
 * Facilitate better integration with [Release Management](http://en.wikipedia.org/wiki/Release_management) and [Software Deployment](http://en.wikipedia.org/wiki/Software_deployment) Management through APIs which expose the relationship between git commits, the environments to which they are deployed, and the associated activity in project management software (e.g. Pivotal Tracker stories)
 * Provide ideas for incorporating these improved UXs and APIs into Pivotal Tracker
+* Other UI implementations to present the API data described below.
 
 # Potential Features
 
