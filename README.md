@@ -40,9 +40,9 @@ These API and Webhook features are specific to Pivotal Tracker, and would be imp
 
 ### Deployment Management
 
-* Webhook to indicate which stories are delivered to which environments.  I.e. after a successful deployment, POST to the webhook with the environment name (e.g. 'staging') and the git SHA (HEAD) of the branch which was deployed.
-* Automatic delivery of finished stories (using data from the above webhook)
-* API endpoint (using data from above webhook) to indicate which stories are delivered to a given environment.  This would also include story states (to easily identify unfinished, undelivered, or unaccepted stories which still have commits deployed to the given environment)
+* API endpoint to indicate which stories are delivered to which environments.  I.e. after a successful deployment, POST to an API endpoint with the environment name (e.g. 'staging') and the git SHA (HEAD) of the branch which was deployed.
+* Automatic delivery of finished stories (using data from the above API endpoint)
+* Separate API endpoint (using data sent to the above endpoint) to indicate which stories are delivered to a given environment.  This would also include story states (to easily identify unfinished, undelivered, or unaccepted stories which still have commits deployed to the given environment)
 
 # References
 
