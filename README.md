@@ -48,6 +48,7 @@ These API and Webhook features are specific to Pivotal Tracker, and would be imp
 
 * Pivotal Tracker's current github commit integration: https://www.pivotaltracker.com/help/api?version=v5#Tracker_Updates_in_SCM_Post_Commit_Hooks
 * GitHub's push event webhook JSON payload: https://developer.github.com/v3/activity/events/types/#pushevent
+* GitHubs commit API: https://developer.github.com/v3/repos/commits/
 * GitHub's commit object JSON: https://developer.github.com/v3/git/commits/
 * More information on rebase-based git workflows: https://github.com/thewoolleyman/gitrflow
 * Release Management: http://en.wikipedia.org/wiki/Release_management
