@@ -52,3 +52,6 @@ These API and Webhook features are specific to Pivotal Tracker, and would be imp
 * More information on rebase-based git workflows: https://github.com/thewoolleyman/gitrflow
 * Release Management: http://en.wikipedia.org/wiki/Release_management
 * Software Deployment: http://en.wikipedia.org/wiki/Software_deployment
+* Git patch-id (how to tell if rebased commits are actually represent the same logical change):
+  * http://git-scm.com/docs/git-patch-id
+  * http://git-scm.com/book/en/v2/Git-Branching-Rebasing#Rebase-When-You-Rebase
